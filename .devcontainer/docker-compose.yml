@@ -1,0 +1,11 @@
+version: "2.1"
+services:
+  ai:
+    build: ../
+    ports:
+      - "8000:8000"
+    volumes:
+      - ..:/workspace
+    environment:
+      TZ: "Asia/Tokyo"
+    command: "sleep infinity"

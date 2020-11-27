@@ -1,0 +1,14 @@
+{
+	"name": "ai-learn",
+	"dockerComposeFile": [
+	   "docker-compose.yml"
+	 ],
+	 "service": "ai",
+	 "shutdownAction": "stopCompose",
+	 "workspaceFolder": "/workspace",
+	 "extensions": [
+		"ms-python.python",
+		"ms-vsliveshare.vsliveshare"
+	 ],
+	///  "postCreateCommand": "pip install -r requirements.txt"
+ }
